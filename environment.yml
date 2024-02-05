@@ -2,9 +2,11 @@ name: EmotionRecML
 channels:
   - defaults
 dependencies:
-  - matplotlib=3.6.0
-  - numpy=1.23.3
-  - pip
-  - python=3.11
-  - scipy
-  - pillow
+  - python=3.12.1
+  - pip:
+      - matplotlib==3.8.2
+      - numpy==1.26.3
+      - pandas==2.2.0
+      - pillow==10.2.0
+      - scikit-learn==1.4.0
+      - scipy==1.12.0
