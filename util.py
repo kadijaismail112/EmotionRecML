@@ -47,6 +47,3 @@ def preprocess_data(data):
     emotions = data['emotion'].values
     return faces, emotions
 
-# def split_dataset(faces, emotions, validation_ratio=0.1):
-
-#     return X_train_oversampled, y_train_oversampled, X_test, y_test, X_eval, y_eval
